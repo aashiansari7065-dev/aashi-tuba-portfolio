@@ -1,0 +1,53 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="120" y1="60" x2="1490" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF6FF"/>
+      <stop offset="0.56" stop-color="#BBDFF5"/>
+      <stop offset="1" stop-color="#6BB4DB"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="650" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FCFF"/>
+      <stop offset="1" stop-color="#D5E7F2"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="470" y1="210" x2="1150" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123A61"/>
+      <stop offset="0.55" stop-color="#176E9C"/>
+      <stop offset="1" stop-color="#8DD6D0"/>
+    </linearGradient>
+    <filter id="shadow" x="320" y="130" width="900" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#17466A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <circle cx="1320" cy="190" r="130" fill="#FFF7D6" fill-opacity="0.58"/>
+  <path d="M0 620L330 390L700 600L1050 330L1600 660V1000H0V620Z" fill="#93C9D8" fill-opacity="0.34"/>
+  <path d="M0 740L360 520L750 730L1110 500L1600 770V1000H0V740Z" fill="url(#wall)"/>
+  <g filter="url(#shadow)">
+    <rect x="385" y="170" width="830" height="550" rx="26" fill="#0A2037"/>
+    <rect x="425" y="210" width="750" height="470" rx="11" fill="url(#screen)"/>
+    <path d="M425 565C580 450 690 515 820 425C938 343 1030 390 1175 286V680H425V565Z" fill="#B5E5D8" fill-opacity="0.7"/>
+    <path d="M425 590C610 505 720 580 840 480C970 372 1060 450 1175 330" stroke="#F5FDFF" stroke-width="13" stroke-linecap="round" stroke-opacity="0.7"/>
+    <rect x="735" y="720" width="130" height="35" rx="17.5" fill="#123A61"/>
+    <path d="M660 790H940L1000 850H600L660 790Z" fill="#123A61"/>
+  </g>
+  <g opacity="0.94">
+    <path d="M1210 780L1350 530L1490 780H1210Z" fill="#F8FCFF"/>
+    <path d="M1245 718L1350 530L1455 718" stroke="#A5C6D7" stroke-width="10"/>
+    <path d="M1270 690L1430 690" stroke="#A5C6D7" stroke-width="9"/>
+    <path d="M1300 635L1400 635" stroke="#A5C6D7" stroke-width="9"/>
+    <path d="M1330 580L1370 580" stroke="#A5C6D7" stroke-width="9"/>
+  </g>
+  <g transform="translate(170 600)">
+    <circle cx="120" cy="55" r="44" fill="#F0B88B"/>
+    <path d="M75 53C80 8 151 0 164 52C144 42 112 41 75 53Z" fill="#173A58"/>
+    <path d="M45 270C50 163 79 105 120 105C161 105 190 163 195 270H45Z" fill="#1678A5"/>
+    <path d="M105 154L188 210L172 232L91 177L105 154Z" fill="#F0B88B"/>
+    <path d="M169 224L260 140L286 165L193 260L169 224Z" fill="#F0B88B"/>
+    <path d="M247 134L302 84L321 106L266 157L247 134Z" fill="#173A58"/>
+    <path d="M78 250L35 330" stroke="#173A58" stroke-width="30" stroke-linecap="round"/>
+    <path d="M161 250L208 330" stroke="#173A58" stroke-width="30" stroke-linecap="round"/>
+  </g>
+  <rect x="72" y="72" width="360" height="126" rx="22" fill="#FFFFFF" fill-opacity="0.8"/>
+  <text x="110" y="127" fill="#123A61" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4">SMART VIEW</text>
+  <text x="110" y="169" fill="#1678A5" font-family="Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="3">TV REPAIR</text>
+</svg>
