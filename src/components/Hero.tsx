@@ -5,14 +5,14 @@ import heroImage from '@/assets/background/hero image.png';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative pt-20 pb-16 lg:pt-24 lg:pb-24">
-      <div className="relative z-10 max-w-site container-px grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+    <section id="home" className="relative pt-16 pb-10 lg:pt-20 lg:pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1500px] px-6 sm:px-8 lg:px-[60px] grid gap-10 xl:grid-cols-2 xl:gap-10 items-center">
         {/* Left: copy */}
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           animate="visible"
-          className="flex flex-col gap-6 lg:gap-7"
+          className="flex w-full max-w-none flex-col gap-6 lg:gap-7"
         >
           {/* Badge */}
           <motion.div variants={fadeUp} transition={transition}>
@@ -26,12 +26,12 @@ export default function Hero() {
           <motion.h1
             variants={fadeUp}
             transition={transition}
-            className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold leading-[1.1] tracking-tight text-ink-900"
+            className="w-full max-w-none text-[2.5rem] sm:text-[2.875rem] md:text-[3.25rem] xl:text-[3.75rem] 2xl:text-[4rem] font-extrabold leading-[1.1] tracking-tight text-ink-900"
           >
-            Helping Businesses Grow
+            Helping Businesses
             <br />
-            With{' '}
-            <span className="text-gradient">Better Digital Marketing.</span>
+            Grow With <span className="text-gradient">Better Digital
+            <br /> Marketing.</span>
           </motion.h1>
 
           {/* Sub copy */}
@@ -46,7 +46,7 @@ export default function Hero() {
           </motion.p>
 
           {/* CTAs */}
-          <motion.div variants={fadeUp} transition={transition} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <motion.div variants={fadeUp} transition={transition} className="flex flex-col items-start gap-3 sm:gap-4">
             <a
               href="#contact"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-accent-600 text-white text-sm font-semibold hover:bg-accent-700 transition-all duration-200 shadow-sm hover:shadow-lg hover:shadow-accent-600/20 group"
@@ -73,12 +73,12 @@ export default function Hero() {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-          className="flex min-h-[240px] items-center justify-center lg:min-h-0 lg:justify-end"
+          className="flex min-h-[240px] items-center justify-center xl:relative xl:-left-[205px] xl:w-[125%]"
         >
           <img
             src={heroImage}
             alt=""
-            className="h-auto max-h-none w-full max-w-full object-contain lg:h-[620px] lg:w-[720px] lg:max-w-none"
+            className="h-auto w-full max-w-[780px] object-contain xl:max-w-[975px]"
           />
         </motion.div>
 

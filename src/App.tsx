@@ -9,6 +9,7 @@ import Tools from '@/components/Tools';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Testimonials />
         <FAQ />
         <CTA />
+        <Contact />
       </main>
       <Footer />
     </>

@@ -50,10 +50,12 @@ export const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-/* ---------- Contact details — replace placeholders ---------- */
+/* ---------- Contact details ---------- */
 export const contact = {
-  email: 'aashi@example.com', // ← Replace with Aashi's email
-  whatsapp: 'https://wa.me/0000000000', // ← Replace with Aashi's WhatsApp number (https://wa.me/<country-code><number>)
+  email: 'aashiansari7065@gmail.com',
+  phone: '+91 70657 66747',
+  phoneLink: '+917065766747',
+  whatsapp: 'https://wa.me/917065766747',
   instagram: 'https://instagram.com/', // ← Replace with Aashi's Instagram URL
   linkedin: 'https://linkedin.com/', // ← Replace with Aashi's LinkedIn URL
 };

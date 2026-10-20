@@ -21,7 +21,7 @@ export default function Footer() {
               </p>
             </div>
             <p className="text-sm text-ink-400 leading-relaxed max-w-xs mt-2">
-              Helping businesses build a stronger digital presence.
+              I help businesses strengthen their online presence through effective digital marketing strategies. My services include SEO, Local SEO, Google Business Profile, social media management, Google and Meta Ads, website development, content creation, and catalogue design. My goal is to improve online visibility, build brand trust, and support business growth.
             </p>
             {/* Socials */}
             <div className="flex gap-3 mt-4">
@@ -61,11 +61,11 @@ export default function Footer() {
             <p className="text-xs font-semibold tracking-widest uppercase text-ink-400 mb-1">
               Get In Touch
             </p>
-            <a href="mailto:aashiansari7065@gmail.com" className="text-sm text-ink-300 hover:text-accent-400 transition-colors w-fit">
-              aashiansari7065@gmail.com
+            <a href={`mailto:${contact.email}`} className="text-sm text-ink-300 hover:text-accent-400 transition-colors w-fit">
+              {contact.email}
             </a>
-            <a href="tel:7065766747" className="text-sm text-ink-300 hover:text-accent-400 transition-colors w-fit">
-              7065766747
+            <a href={`tel:${contact.phoneLink}`} className="text-sm text-ink-300 hover:text-accent-400 transition-colors w-fit">
+              {contact.phone}
             </a>
             <a
               href={contact.whatsapp}

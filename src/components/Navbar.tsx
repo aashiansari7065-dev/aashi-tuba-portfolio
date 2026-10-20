@@ -29,7 +29,7 @@ export default function Navbar() {
       <nav className="max-w-site container-px flex items-center justify-between h-16 lg:h-20">
         {/* Brand */}
         <a href="#home" className="flex flex-col leading-none">
-          <span className="text-xl font-extrabold tracking-tight text-ink-900">AASHI &amp; TUBA</span>
+          <span className="text-xl font-extrabold tracking-tight text-ink-900">AASHI</span>
           <span className="text-[10px] font-medium tracking-widest uppercase text-ink-400 mt-0.5">
             Freelance Digital Marketer
           </span>
